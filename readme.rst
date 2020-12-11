@@ -2,16 +2,16 @@
 Goodie Bag Press Warehouse Management System
 ###################
 
-This is a website-based Warehouse Management System application website-based for a small business called Goodie Bag Press.  
-The application was built using CodeIgniter 3.1.11, Bootstrap 4.5, and jQuery.  
-The overall interface creation and features are assisted by SB Admin 2 template.  
-The language available is only for Indonesian.  
+This is a website-based Warehouse Management System application website-based for a small business called Goodie Bag Press.<br/>
+The application was built using CodeIgniter 3.1.11, Bootstrap 4.5, and jQuery.<br/>
+The overall interface creation and features are assisted by SB Admin 2 template.<br/>
+The language available is only for Indonesian.<br/>
 
 *******************
 Feature
 *******************
 
-- Cards contains:
+- Cards contains:<br/>
   • Total items
   • Total of items purchase (monthly)
   • Incoming items (monthly)
