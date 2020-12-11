@@ -1,70 +1,80 @@
 ###################
-What is CodeIgniter
+Goodie Bag Press Warehouse Management System
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+This is a website-based Warehouse Management System application website-based for a small business called Goodie Bag Press.
+The application was built using CodeIgniter 3.1.11, Bootstrap 4.5, and jQuery.
+The overall interface creation and features are assisted by SB Admin 2 template.
+The language available is only for Indonesian.
 
 *******************
-Release Information
+Feature
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+- Cards contains:
+  • Total items
+  • Total of items purchase (monthly)
+  • Incoming items (monthly)
+  • Outcoming items (monthly)
+- Top 5 Shortage stock
+- Top 5 surplus stock
+- Master data
+  You can add, edit, and delete them in:
+  • Item data
+  • Transportation data
+  • Distribution data
+  • Supplier data
+  • User data
+- Purchase order
+- Items Transaction contains:
+  • Incoming item transaction
+  • Outcoming item transaction
+- Delivery order
+- Report contains:
+  • Item stock report (all data)
+  • Purchase order report (all data or period)
+  • Purchase order details report (all data)
+  • Incoming items report (all data or period)
+  • Outcoming items report (all data or period)
+  • Delivery order report (all data or period)
+- Edit profile
 
 **************************
-Changelog and New Features
+User 
+**************************
+Users on this application are divided into two. The users are:
+- Admin
+  They can manage all available features.
+- Operator
+  They have limited access. Not like Admin, the feature available is only purchase order, items transaction, delivery order, and item stock report.
+
+**************************
+Composition
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+- HTML            - PHP
+- CSS             - Bootstrap 4.5
+- JavaScript      - CodeIgniter 3.1.11
+- jQuery          - SB Admin 2 template
 
 *******************
-Server Requirements
+How to use?
 *******************
 
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+1. Login with your valid account
+2. Create a new purchase order. Make sure you have at least one data in master data.
+3. Create a new item order. Input valid data on the modal window of item order.
+4. Submit item order list you already input.
+5. Input valid delivery order data, submit.
+6. Input incoming item with the appropriate value to the purchase order.
+7. If you get order by customers, input the outcoming value corresponding to the demand.
+8. Check on the report menu according to your needs to see changes in transactions that have been running.
 
 *********
 Resources
 *********
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+-  `CodeIgniter 3 <https://github.com/bcit-ci/CodeIgniter>`_
+-  `Bootstrap 4.5 <https://getbootstrap.com/docs/4.5/getting-started/introduction/>`_
+-  `SB Admin 2 <https://startbootstrap.com/theme/sb-admin-2>`_
+-  `Goodie Bag Press <http://goodiebagpress.com/>`_
